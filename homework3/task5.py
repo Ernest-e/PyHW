@@ -12,11 +12,9 @@
 #     fnm1 = 0
 
 
-#     # for i in range(2, n+1):
-#     #     fn, fnm1 = fn+fnm1, fn
+#     for i in range(2, n+1):
+#         fn, fnm1 = fn+fnm1, fn
 
-#     for i in range(-2, -n-1, -1):
-#         fn, fnm1 = fnm1-fn, fn
     
 #     return fn
 

@@ -1,18 +1,5 @@
 # Напишите программу, которая принимает на вход вещественное число и показывает сумму его цифр.
 
-# a = input().split(',')
-# sum = 0
-# if len(a)>1:
-#     for i in range(len(a)):
-#         for j in range(len(a[i])):
-#             sum += int(a[i][j])
-# else:
-#     for i in range(len(a[0])):
-#         sum += int(a[0][i])
-
-
-# print (sum)
-
 
 a = input().replace(',', '')
 sum = 0
