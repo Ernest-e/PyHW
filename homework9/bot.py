@@ -3,7 +3,7 @@ from telebot import types
 from random import randint
 from random import choice
 
-bot = telebot.TeleBot("5832412002:AAGFELT3j3-lMoWJxXzRyPWwN7SGvUhBysQ")
+bot = telebot.TeleBot("Token")
 
 quantity = 117
 max_grab = 28
@@ -101,8 +101,6 @@ def gamePvB (message):
 @bot.message_handler(func=handle_game_warning)
 def gameWarning (message):
     bot.send_message(message.chat.id, 'Необходимо выбрать от 1 до 28 конфет')
-
-
 
 
 
